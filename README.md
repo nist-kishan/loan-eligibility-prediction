@@ -3,7 +3,6 @@
 ## 📁 Description
 This project is a full-stack web application that predicts a user's loan eligibility based on their financial and personal details. The app is built with a **React frontend**, **Flask backend**, and a **machine learning model** trained on historical loan data.
 
----
 
 ## 📁 Project Structure
 
@@ -18,7 +17,6 @@ loan-eligibility-app/
 └── TrainAndSaveModel.ipynb  # Notebook to preprocess, train, and export the model
 ```
 
----
 
 ## 🔧 Backend
 
@@ -35,7 +33,6 @@ loan-eligibility-app/
 * pickle
 * flask-cors
 
----
 
 ## 💻 Frontend
 
@@ -45,7 +42,6 @@ loan-eligibility-app/
 * Displays model prediction as "Approved" or "Rejected"
 * Styled using **Tailwind CSS** with subtle animations
 
----
 
 ## 🧠 Model
 
@@ -53,8 +49,6 @@ loan-eligibility-app/
 * Uses 11 engineered features like Gender, Income, Credit History, etc.
 * Trained and saved using `TrainAndSaveModel.ipynb`
 * Model is serialized using `pickle` and stored at `model/logistic_model.pkl`
-
----
 
 ## 📈 Algorithms Used
 
@@ -67,8 +61,6 @@ loan-eligibility-app/
    * A linear classification algorithm used for binary outcomes (like "Approved" vs "Rejected").
 
 > You can switch between algorithms in the training notebook by changing the classifier line.
-
----
 
 ## ⚡ How to Run the Project
 
@@ -110,15 +102,12 @@ Run all cells to save the model to /model/logistic_model.pkl
 
 > Make sure your Flask backend is running at `http://localhost:5000` when testing the frontend.
 
----
-
 ## ✅ Result
 
 * Provides instant loan eligibility predictions
 * Successfully integrates ML with a responsive UI
 * Handles edge cases and invalid inputs with graceful messages
 
----
 
 ## 📚 Learning
 
@@ -126,8 +115,6 @@ Run all cells to save the model to /model/logistic_model.pkl
 * How to preprocess and encode categorical data
 * Deploying full-stack ML apps locally
 * Managing API-CORS issues and model versioning
-
----
 
 ## 🚀 Future Improvements
 

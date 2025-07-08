@@ -1,5 +1,6 @@
 # Loan Eligibility Prediction Web App
 
+## 📁 Description
 This project is a full-stack web application that predicts a user's loan eligibility based on their financial and personal details. The app is built with a **React frontend**, **Flask backend**, and a **machine learning model** trained on historical loan data.
 
 ---
